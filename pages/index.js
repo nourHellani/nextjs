@@ -7,11 +7,11 @@ export default function Home() {
     <>
       <Head>
         <title>Ninja List | Home</title>
-        <meta name="keywords" content="ninjas"/>
+        <meta name="keywords" content="ninjas" />
       </Head>
 
       <div>
-        <h1 className={styles.title}>Homepage</h1>
+        <h1 className="text-3xl font-bold underline">Homepage</h1>
         <p className={styles.text}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi
           impedit suscipit architecto, odio inventore nostrum non neque dicta.
