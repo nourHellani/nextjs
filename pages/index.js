@@ -24,7 +24,10 @@ export default function Home() {
           Quam magni accusantium culpa distinctio tempore iure accusamus,
           dolorem nobis odit.
         </p>
-        <Link href="/ninjas/" className={styles.btn}>
+        <Link
+          href="/ninjas/"
+          className="w-[150px] rounded py-2 block px-0 my-8 mx-auto bg-[#4979ff] text-white text-center"
+        >
           See Ninja Listing
         </Link>
       </div>
