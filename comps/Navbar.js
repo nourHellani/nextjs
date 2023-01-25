@@ -3,7 +3,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo">
+      <div className="mr-auto">
         <Image src="/logo.png" alt="site logo" width={128} height={77} />
       </div>
       <Link href="/">Home</Link>

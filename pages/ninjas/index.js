@@ -16,15 +16,17 @@ const Ninjas = ({ ninjas }) => {
   return (
     <div>
       <h1>All Ninjas</h1>
-      {ninjas.map((ninja) => (
-        <Link
-          className={styles.single}
-          href={"/ninjas/" + ninja.id}
-          key={ninja.id}
-        >
-          <h3>{ninja.name}</h3>
-        </Link>
-      ))}
+      <div className="grid gap-4 grid-cols-4">
+        {ninjas.map((ninja) => (
+          <Link
+            className=" px-2 py-4  mx-5 my-3 border border-l-3 border-l-white  hover:border-l-[#4979ff] bg-[#fff]"
+            href={"/ninjas/" + ninja.id}
+            key={ninja.id}
+          >
+            <h3>{ninja.name}</h3>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };
