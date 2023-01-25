@@ -3,7 +3,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <div className=" border-b  border-solid border-[#eaeaea] ">
-      <nav className="  container max-w-4xl mx-auto my-5 mt-2.5  mb-10 py-2.5 px-0 flex justify-end items-end ">
+      <nav className="  container max-w-4xl mx-auto my-2 mt-1.5  mb-10 py-2.5 px-0 flex justify-end items-end ">
         <div className="mr-auto">
           <Image src="/logo.png" alt="site logo" width={100} height={49} />
         </div>
