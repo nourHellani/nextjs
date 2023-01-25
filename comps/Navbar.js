@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="mt-2.5 mx-auto mb-20 py-2.5 px-0 flex justify-end items-end border-b border-borderb">
       <div className="mr-auto">
-        <Image src="/logo.png" alt="site logo" width={128} height={77} />
+        <Image src="/logo.png" alt="site logo" width={100} height={49} />
       </div>
       <Link className="mr-4" href="/">
         Home
