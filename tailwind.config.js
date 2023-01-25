@@ -6,7 +6,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        // default breakpoints but with 40px removed
+        screens: {
+          sm: "600px",
+          md: "728px",
+          lg: "984px",
+        },
+      },
+    },
   },
   plugins: [],
 };

@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="max-w-xl mx-auto">
+    <div className="container lg:max-w-screen-lg mx-auto px-5">
       <Navbar />
       {children}
       <Footer />
