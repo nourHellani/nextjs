@@ -3,9 +3,9 @@ import Navbar from "./Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <div className=" font-Nunito container lg:max-w-screen-lg mx-auto px-5">
+    <div className="  mx-auto my-0    ">
       <Navbar />
-      {children}
+      <div className="  container max-w-4xl mx-auto my-0   ">{children}</div>
       <Footer />
     </div>
   );
