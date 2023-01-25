@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div
-      className="fixed
+      className="
     inset-x-0
     bottom-0"
     >
