@@ -94,9 +94,13 @@ const Navbar = () => {
         <div className="text-md mr-4">
           <p>{time}</p>
         </div>
-
-        <div className="text-md flex justify-end">
-          <p>{date}</p>
+        <div>
+          <div className="text-sm text-red-600 uppercase text-center">
+            <p>{weekDays[day]}</p>
+          </div>
+          <div className="text-md flex justify-end">
+            <p>{date}</p>
+          </div>
         </div>
       </nav>
     </div>
