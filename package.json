@@ -25,6 +25,7 @@
     "react-tailwindcss-datepicker": "^1.4.1",
     "react-time-picker": "^5.2.0",
     "react-timeit": "^1.2.12",
+    "react-use-clock": "^0.0.4",
     "vue-ctk-date-time-picker": "^3.0.0-alpha.0"
   },
   "devDependencies": {
