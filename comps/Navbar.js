@@ -16,6 +16,9 @@ const Navbar = () => {
         <Link className="mr-4" href="/ninjas/">
           Ninja Listing
         </Link>
+        <Link className="mr-4" href="/calendar/">
+          Calendar
+        </Link>
       </nav>
     </div>
   );
