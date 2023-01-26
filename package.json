@@ -12,8 +12,14 @@
     "@next/font": "13.1.5",
     "next": "13.1.5",
     "react": "18.2.0",
+    "react-clock": "^4.0.0",
+    "react-datetime-picker": "^4.2.0",
     "react-dom": "18.2.0",
-    "react-tailwindcss-datepicker": "^1.4.1"
+    "react-ios-time-picker": "^0.2.2",
+    "react-tailwindcss-datepicker": "^1.4.1",
+    "react-time-picker": "^5.2.0",
+    "react-timeit": "^1.2.12",
+    "vue-ctk-date-time-picker": "^3.0.0-alpha.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
